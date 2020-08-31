@@ -1,0 +1,39 @@
+.crossbutton {     
+    height: 20px;
+    width: 20px;
+    margin-left: 36px;
+    margin-top: 36px;
+}
+
+h1 {
+    margin-left: 12%;
+    text-align: left;
+    font-size: 38px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: left;
+    line-height: 4vh;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttonRing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 7vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 45%;
+    background: #00308a;
+    color: white;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
