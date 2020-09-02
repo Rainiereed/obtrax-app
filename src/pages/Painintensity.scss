@@ -1,0 +1,78 @@
+.card {
+    width: 82vw;
+    height: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
+    border-radius: 35px;
+    overflow: auto;
+    padding: 4vw;
+}
+
+h2 {
+    padding: 0;
+    margin-top: 25vh;
+    margin-left: 10vw;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 11px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.textLeft {
+    float: left;
+}
+
+.textRight {
+    float: right;
+}
+
+.saveButton {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #0553e1;
+    color: white;
+    width: 30vw;
+    height: 7vh;
+    margin-left: -10vh;
+    border-radius: 10px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+
+.divider{
+    width:5vh;
+    height:auto;
+    display:inline-block;
+}
+
+.cancelButton {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    width: 30vw;
+    height: 7vh;
+    margin-right: -10vh;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
