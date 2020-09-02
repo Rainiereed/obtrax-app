@@ -5,7 +5,7 @@ import cross from '../assets/cross.png';
 import logo from '../assets/logo.png';
 
 Modal.setAppElement('#root')
-function Popup() {
+function PopupReminder() {
 var subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
   function openModal() {
@@ -55,4 +55,4 @@ var subtitle;
 
   );
 }
-export default Popup;
+export default PopupReminder;
