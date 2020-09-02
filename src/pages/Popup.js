@@ -39,16 +39,16 @@ function Popup() {
           </div>
 
           <div>
-            <button className="buttonMenu">Gå till timer</button>
+            <button className="buttonMenu" id="gridItem1">Gå till timer</button>
           </div>
           <div>
-            <button className="buttonMenu">Jag vill registrera sympton</button>
+            <button className="buttonMenu" id="gridItem2">Jag vill registrera sympton</button>
           </div>
           <div>
-            <button className="buttonMenu">Viktig information</button>
+            <button className="buttonMenu" id="gridItem3">Viktig information</button>
           </div>
           <div>
-            <button className="buttonRing">Ring barnmorska</button>
+            <button className="buttonRing" id="gridItem4">Ring barnmorska</button>
           </div>
         </div>
       </Modal>
