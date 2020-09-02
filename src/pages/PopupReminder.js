@@ -45,7 +45,7 @@ var subtitle;
             <h1>Det är dags!</h1>
           </div>
           <div>
-            <p ref={_subtitle => (subtitle = _subtitle)}>Baserat på dina värkar och sammandragningar kommer du nu att bli kopplad till en barnmorska i ditt sjukhus med en sängplats.</p>
+            <p className="text" ref={_subtitle => (subtitle = _subtitle)}>Baserat på dina värkar och sammandragningar kommer du nu att bli kopplad till en barnmorska i ditt sjukhus med en sängplats.</p>
           </div>
           <div>
             <button className="buttonRing">Ring barnmorska</button>
