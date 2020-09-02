@@ -9,7 +9,7 @@
     margin-right: -50%;
     border-radius: 40px;
     outline: none;   
-    overflow: hidden;
+    overflow: auto;
 }
 
 .logo {
@@ -23,7 +23,7 @@
 .wrapper {
     display: grid;
     
-    grid-template-rows: 16vh 16vh 16vh 20vh 16vh;
+    grid-template-rows: 14.5vh 14.5vh 14.5vh 0vh;
 }
 
 .crossbutton {
@@ -56,6 +56,20 @@
     outline: none;
 }
 
+#gridItem1 {
+    grid-row-start: 2;
+}
+#gridItem2 {
+    grid-row-start: 3;
+}
+#gridItem3 {
+    grid-row-start: 4;
+}
+
+#gridItem4 {
+    grid-row-start: 5;
+}
+
 .buttonRing {
     display: flex;
     justify-content: center;
@@ -64,7 +78,7 @@
     height: 6vh;
     margin-left: 18%;
     margin-right: 18%;
-    background: #00308a;
+    background: #133e90;
     color: white;
     border-radius: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
