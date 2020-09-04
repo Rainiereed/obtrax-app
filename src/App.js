@@ -1,12 +1,13 @@
 import React from 'react';
+import Layout from "./pages/Layout";
 import './App.scss';
-import Slideshow from "./components/Slideshow";
+
 
 
 function App() {
   return (
     <div className="App">
-      <Slideshow />
+      <Layout />
     </div>
 
   );
