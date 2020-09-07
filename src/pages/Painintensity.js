@@ -1,7 +1,8 @@
 import React from 'react';
 import Slidebar from '../components/Slidebar';
-import "../pages/Painintensity.scss";
 import LogoButton from '../components/LogoButton';
+import SaveCancelButtons from '../components/SaveCancelButtons';
+import "../pages/Painintensity.scss";
 
 const Card = () => {
     return (
@@ -23,9 +24,7 @@ const Card = () => {
                 <br></br>
                 <br></br>
                 <div>
-                    <button className="saveButton" >Spara</button>
-                    <div class="divider"/>
-                    <button className="cancelButton">Avbryt</button>
+                    <SaveCancelButtons /> 
                 </div>
             </div>
         </div>
