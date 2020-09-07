@@ -157,18 +157,18 @@ return value < 10 ? `0${value.toFixed(0)}`: value.toFixed(0);
 
 function formatDuration(totalSeconds: number){
   let date = new Date(totalSeconds);
-  let hours = date.getHours();
+  // let hours = date.getHours();
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
 
-  let hoursOutput = hours > 0 ? `${padWithLeadingZero(hours)}:` : ''; 
+  // let hoursOutput = hours > 0 ? `${padWithLeadingZero(hours)}:` : ''; 
 
   // if(seconds === 60){
   //   seconds = 0;
   //   minutes ++;
   // }
   
-  return `${hoursOutput}${padWithLeadingZero(minutes)}:${padWithLeadingZero(seconds)}`;
+  return `${padWithLeadingZero(minutes)}:${padWithLeadingZero(seconds)}`;
 }
 
 function dateDiffInSeconds(startDate: Date, endDate: Date): number{
