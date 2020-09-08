@@ -6,22 +6,29 @@ import {
 } from "react-router-dom";
 
 import Slideshow from "../components/Slideshow";
-import Sidenav from "../components/Sidenav";
-import Slidebar from "../components/Slidebar";
 import Popup from "../pages/Popup";
 import PopupReminder from "../pages/PopupReminder";
 import Painintensity from "../pages/Painintensity";
 import CallMidwife from "../pages/CallMidwife";
+import Contraction from "../components/Contraction";
+import Minprofil from "../pages/Minprofil";
+import Settings from "../pages/Settings";
+import Information from "../pages/Information";
+
 
 export default function Layout() {
     return (
         <div>
-
             <Router>
                 <Switch>
                     <Route exact path="/" component={Slideshow} />
                     <Route exact path="/ring" component={CallMidwife} />
                     <Route exact path="/popup" component={Popup} />
+                    <Route exact path="/reminder" component={PopupReminder} />
+                    <Route exact path="/timer" component={Contraction} />
+                    <Route exact path="/minprofile" component={Minprofil} />
+                    <Route exact path="/setting" component={Settings} />
+                    <Route exact path="/information" component={Information} />
                 </Switch>
             </Router>
         </div>
