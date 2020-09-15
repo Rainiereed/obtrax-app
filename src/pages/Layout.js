@@ -14,6 +14,8 @@ import Contraction from "../components/Contraction";
 import Minprofil from "../pages/Minprofil";
 import Settings from "../pages/Settings";
 import Information from "../pages/Information";
+import RegisterSymptoms from "../pages/RegisterSymptoms";
+import WaterBroken from "../pages/WaterBroken";
 
 
 export default function Layout() {
@@ -29,6 +31,8 @@ export default function Layout() {
                     <Route exact path="/minprofile" component={Minprofil} />
                     <Route exact path="/setting" component={Settings} />
                     <Route exact path="/information" component={Information} />
+                    <Route exact path="/symptoms" component={RegisterSymptoms} />
+                    <Route exact path="/water" component={WaterBroken} />
                 </Switch>
             </Router>
         </div>
