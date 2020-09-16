@@ -25,15 +25,17 @@ const WaterBroken = () => {
                     <br></br>
                     <br></br>
                     <div>
-                        <input type="checkbox" id="transparent" name="transparent" value="genomskinligt" />
-                        <label htmlFor="transparent">Vattnet är genomskinligt</label>
+                        <label className="container" htmlFor="transparent">Vattnet är genomskinligt
+                            <input type="checkbox" checked="checked" id="transparent" name="transparent" value="genomskinligt" />
+                            <span className="checkmark"></span>
+                        </label>
                     </div>
                     <div>
-                        <input type="checkbox" id="discolored" name="discolored" value="missfärgat" />
-                        <label htmlFor="discolored">Vattnet är missfärgat</label>
+                        <label className="container" htmlFor="discolored">Vattnet är missfärgat
+                            <input type="checkbox" checked="checked" id="discolored" name="discolored" value="missfärgat" />
+                            <span className="checkmark"></span>
+                        </label>
                     </div>
-                    <br></br>
-                    <br></br>
                     <br></br>
                     <br></br>
                     <input className="buttonWater" type="submit" value="Registrera symptom"></input>
