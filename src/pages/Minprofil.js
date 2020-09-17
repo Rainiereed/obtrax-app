@@ -13,7 +13,7 @@ const Minprofil = () => {
             <div>
                 <LogoButton />
             </div>
-            <div className="container">
+            <div className="wrapper">
                 <form>
                     <h1>Min Profil</h1>
                     <p>Dessa uppgifter gör att vi kan hålla bättre koll på er och att allt står rätt till.</p>
@@ -92,10 +92,11 @@ const Minprofil = () => {
                             />
                         </div>
                     </div>
+                    <br></br>
+                    <SaveCancelButtons />
+                    <br></br>
+                    <br></br>
                 </form>
-            </div>
-            <div>
-                <SaveCancelButtons />
             </div>
         </div>
     );
