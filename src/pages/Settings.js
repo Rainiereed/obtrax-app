@@ -13,7 +13,7 @@ const Settings = () => {
             <div>
                 <LogoButton />
             </div>
-            <div className="container">
+            <div className="wrapper">
                 <form>
                     <h1>Inställningar</h1>
                     <p>Sjukhusinställningar</p>
@@ -83,10 +83,11 @@ const Settings = () => {
                             />
                         </div>
                     </div>
+                    <br></br>
+                    <SaveCancelButtons />
+                    <br></br>
+                    <br></br>
                 </form>
-            </div>
-            <div>
-                <SaveCancelButtons />
             </div>
         </div>
     );
