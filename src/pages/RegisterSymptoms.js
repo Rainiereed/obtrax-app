@@ -2,6 +2,7 @@ import React from 'react';
 import cross from '../assets/cross.png';
 import LogoButton from "../components/LogoButton";
 import CallMidwifeButton from "../components/CallMidwifeButton";
+import WaterBrokenButton from "../components/WaterBrokenButton";
 import "../pages/RegisterSymptoms.scss";
 
 const Symptoms = () => {
@@ -18,10 +19,10 @@ const Symptoms = () => {
             <br></br>
             <br></br>
             <div className="symptomCard">
-                 <br></br>
+                <br></br>
                 <p>Beskriv dina symptom</p>
                 <br></br>
-                <button className="symptomButton" id="Item1">Vattnet har gått</button>
+                <WaterBrokenButton className="symptomButton" id="Item1" path="/water" text="Vattnet har gått" />
                 <br></br>
                 <br></br>
                 <button className="symptomButton" id="Item2">Jag blöder</button>
@@ -40,9 +41,7 @@ const Symptoms = () => {
                 <CallMidwifeButton path="/ring" text="Ring barnmorska" />
             </div>
         </div>
-
     );
-
 }
 
 export default Symptoms;
