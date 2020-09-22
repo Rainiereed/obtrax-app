@@ -51,7 +51,7 @@ const Onboarding = () => {
           <div className="each-slide">
 
             <h1>Värdefull information</h1>
-            <h3>Klicka på <strong>Lägg till info</strong> för att ge OB Trax värdefull information som tillgängliggör hjälp till er bäst på bästa sätt!<br>
+            <h3>Klicka på <strong><a href="/minprofile">Lägg till info</a></strong> för att ge OB Trax värdefull information som tillgängliggör hjälp till er bäst på bästa sätt!<br>
             </br>
               <br></br>
               Om du direkt vill komma igång att mäta dina värkar, kan du lägga till denna information i dian värkar, kan du lägga till denna information i dina inställningar senare.</h3>
