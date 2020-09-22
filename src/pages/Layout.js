@@ -11,7 +11,7 @@ import PopupReminder from "../pages/PopupReminder";
 import Painintensity from "../pages/Painintensity";
 import CallMidwife from "../pages/CallMidwife";
 import Contraction from "../pages/Contraction";
-import ContractionSummary from '../pages/ContractionSummary';
+//import ContractionSummary from '../pages/ContractionSummary';
 import Minprofil from "../pages/Minprofil";
 import Settings from "../pages/Settings";
 import Information from "../pages/Information";
