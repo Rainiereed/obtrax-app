@@ -13,12 +13,13 @@ class Sidenav extends React.Component {
     render () {
       
       return (
-        <Menu disableAutoFocus width={ '95%' } customBurgerIcon={ <img src={burger} alt="burgericon"/> } customCrossIcon={ <img src={cross} alt="crossicon"/> }>
+        <Menu disableAutoFocus width={ '90%' } customBurgerIcon={ <img src={burger} alt="burgericon" /> } customCrossIcon={ <img src={cross} alt="crossicon" /> }>
           
           <a id="timer" className="menu-item" href="/timer">TIMER</a>
           <a id="minprofil" className="menu-item" href="/minprofile">MIN PROFIL</a>
-          <a id="inställningar" className="menu-item" href="/inställningar">INSTÄLLNINGAR</a>
-          <a id="viktiginformation" className="menu-item" href="/viktiginformation">VIKTIG INFORMATION</a>
+          <a id="inställningar" className="menu-item" href="/setting">INSTÄLLNINGAR</a>
+          <a id="viktiginformation" className="menu-item" href="/information">VIKTIG INFORMATION</a>
+          
           
         </Menu>
       );
