@@ -1,5 +1,6 @@
 h1 {
-    padding: 35px;
+    margin-top: 20px;
+    margin-bottom: -15px;
     margin-left: -5px;
     text-align: left;
     font-size: 36px;
@@ -33,22 +34,22 @@ h1 {
 
 #Item1 {
     
-    background-color: rgba(219, 204, 247, 0.8);
+    background-image: radial-gradient( #c3a8f4, #dbccf7);
    
 }
 #Item2 {
     
-    background-color: rgba(159, 191, 214, 0.8);
+    background-image: radial-gradient( #78add4, #9fbfd6);
    
 }
 #Item3 {
     
-    background-color: rgba(83, 113, 171, 0.8);
+    background-image: radial-gradient( #164091, #5371ab);
 }
 
 #Item4 {
     
-    background-color: rgba(144, 198, 164, 0.8);
+    background-image: radial-gradient( #70a581, #90c6a4);
 }
 
 p {
