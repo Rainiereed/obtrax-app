@@ -1,5 +1,8 @@
 import React from 'react';
+import React from 'react';
 import Modal from 'react-modal';
+import CallMidwifeButton from "../components/CallMidwifeButton";
+import PopupButton from "../components/PopupButton";
 import "../pages/Popup.scss";
 import logo from '../assets/logo.png';
 import cross from '../assets/cross.png';
@@ -14,6 +17,7 @@ function Popup() {
   function closeModal() {
     setIsOpen(false);
   }
+  
 
   return (
     <div>
@@ -37,20 +41,20 @@ function Popup() {
           <div className="crossbutton">
             <img src={cross} alt="crossicon" onClick={closeModal} />
           </div>
-
+        
           <div>
-            <button className="buttonMenu" id="gridItem1">Gå till timer</button>
+            <PopupButton id="gridItem1" path="/timer" text="Gå till timer" />
           </div>
           <div>
-            <button className="buttonMenu" id="gridItem2">Jag vill registrera sympton</button>
+            <PopupButton id="gridItem2" path="/symptoms" text="Jag vill registrera sympton" />
           </div>
           <div>
-            <button className="buttonMenu" id="gridItem3">Viktig information</button>
+            <PopupButton id="gridItem3" path="/information" text="Viktig information" />
           </div>
-          <div>
-            <button className="buttonRing" id="gridItem4">Ring barnmorska</button>
+          <div>          
+             <CallMidwifeButton id="gridItem4" path="/ring" text="Ring barnmorska" />
           </div>
-        </div>
+        </div> 
       </Modal>
     </div>
   );
