@@ -2,7 +2,8 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Sidenav from "../components/Sidenav";
 import LogoButton from "../components/LogoButton";
-import CallMidwifeButton from "../components/CallMidwifeButton"
+import PopupButton from "../components/PopupButton";
+import CallMidwifeButton from "../components/CallMidwifeButton";
 import "../pages/Information.scss";
 
 const Information = () => {
@@ -35,7 +36,7 @@ const Information = () => {
             <p>Har du symptom? <br></br>
             Du kan registrera dina symptom direkt i OB Trax. </p>
             <div>
-                <button className="buttonMenu" id="gridItem2">Jag vill registrera sympton</button>
+                <PopupButton path="/symptoms" text="Jag vill registrera sympton" />
             </div>
             <section id='days'>
                 <p className="bold">Veta när det är dags</p>
@@ -92,6 +93,10 @@ const Information = () => {
             <br></br>
         </div>
 
+    );
+}
+
+export default Information;
     );
 }
 
