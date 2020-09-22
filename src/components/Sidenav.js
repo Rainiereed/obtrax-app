@@ -19,7 +19,6 @@ class Sidenav extends React.Component {
           <a id="minprofil" className="menu-item" href="/minprofile">MIN PROFIL</a>
           <a id="inställningar" className="menu-item" href="/inställningar">INSTÄLLNINGAR</a>
           <a id="viktiginformation" className="menu-item" href="/viktiginformation">VIKTIG INFORMATION</a>
-          <a id="historik" className="menu-item" href="/historik">HISTORIK</a>
           
         </Menu>
       );
