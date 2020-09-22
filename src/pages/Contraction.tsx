@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Store, IContraction } from '../Store'; 
+import LogoButton from "../components/LogoButton";
 //import ContractionSummary from '../pages/ContractionSummary';
 import stopwatch from '../assets/stopwatch.svg';
 import '../pages/Contraction.scss';
@@ -20,6 +21,7 @@ const Contraction: React.FC = () => {
   return (
     <div className="App">
       <main>
+        <LogoButton />
         {
           state.midContraction ?
           <button className="contraction end" onClick={() => {dispatch({type: 'CONTRACTION_END', payload: new Date()}); dispatch({type: 'TOGGLE_CONTRACTION'})} }>stop</button>
