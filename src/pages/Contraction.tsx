@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Store, IContraction } from '../Store'; 
-import ContractionSummary from '../pages/ContractionSummary';
+//import ContractionSummary from '../pages/ContractionSummary';
 import stopwatch from '../assets/stopwatch.svg';
 import '../pages/Contraction.scss';
 
