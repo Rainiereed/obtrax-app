@@ -1,6 +1,7 @@
 import React from 'react';
 import back from '../assets/back.png';
 import LogoButton from "../components/LogoButton";
+import ConfirmButton from "../components/ConfirmButton";
 import "../pages/WaterBroken.scss";
 
 const WaterBroken = () => {
@@ -23,22 +24,26 @@ const WaterBroken = () => {
                 <form>
                     <p>Beskriv färgen på vattnet</p>
                     <br></br>
-                    <br></br>
+          
                     <div>
                         <label className="container" htmlFor="transparent">Vattnet är genomskinligt
-                            <input type="checkbox" checked="checked" id="transparent" name="transparent" value="genomskinligt" />
+                            <input type="checkbox" id="transparent" name="transparent" value="genomskinligt" />
                             <span className="checkmark"></span>
                         </label>
                     </div>
                     <div>
                         <label className="container" htmlFor="discolored">Vattnet är missfärgat
-                            <input type="checkbox" checked="checked" id="discolored" name="discolored" value="missfärgat" />
+                            <input type="checkbox" id="discolored" name="discolored" value="missfärgat" />
                             <span className="checkmark"></span>
                         </label>
                     </div>
                     <br></br>
                     <br></br>
-                    <input className="buttonWater" type="submit" value="Registrera symptom"></input>
+                    <br></br>
+                    <br></br>
+                    <ConfirmButton className="buttonWater" type="submit" path="/confirm" text="Registrera symptom" />
+                    
+                    
                 </form>
 
 
@@ -47,5 +52,7 @@ const WaterBroken = () => {
     );
 
 }
+
+export default WaterBroken;
 
 export default WaterBroken;
