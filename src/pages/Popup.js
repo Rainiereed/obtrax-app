@@ -1,5 +1,4 @@
 import React from 'react';
-import React from 'react';
 import Modal from 'react-modal';
 import CallMidwifeButton from "../components/CallMidwifeButton";
 import PopupButton from "../components/PopupButton";
