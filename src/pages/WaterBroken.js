@@ -46,13 +46,9 @@ const WaterBroken = () => {
                     
                 </form>
 
-
             </div>
         </div>
     );
-
 }
-
-export default WaterBroken;
 
 export default WaterBroken;
