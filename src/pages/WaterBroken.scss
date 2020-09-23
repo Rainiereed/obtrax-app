@@ -14,10 +14,11 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
     border-radius: 35px;
     overflow: auto;
-    padding: 5vw;
+    padding: 4vw;
     overflow: auto;
 }
 
+/* checkbox container */
 .container {
     display: block;
     position: relative;
@@ -44,7 +45,7 @@
 /* Create a custom checkbox */
 .checkmark {
     position: absolute;
-    top: 20px;
+    top: 11px;
     left: 0;
     height: 25px;
     width: 25px;
@@ -55,6 +56,9 @@
 .container input:checked~.checkmark {
     background-color: #c3a8f4;
 }
+/*.container input:checked~.checkmark {
+    background-color: #7c94c1;
+} */
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
