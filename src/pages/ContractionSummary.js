@@ -9,7 +9,7 @@ const ContractionSummary = () => {
   }
 
   return (
-    <div
+    <div   
       className={
         !animation
           ? "summaryCard reverse-animation"
@@ -17,29 +17,24 @@ const ContractionSummary = () => {
       }
       onClick={() => toggleButton()}
     >
-      <div>
-        <p className="contractionText">CONTRACTION</p>
-        <p>2020-09-10 - 2020-09-12</p>
+
+          <div className="contractionText">CONTRACTION</div>
+          <div className="dateText">2020-09-26 - 2020-09-27</div>
+         
+          <div className="title1">Frekvens</div>
+          <div className="backgroundShape shape1" id="Item1">Var 5:e minut</div>
+        
+          <div className="title2">Genomsnittslängd</div>
+          <div className="backgroundShape shape2" id="Item2">54 sekunder</div>
+        
+          <div className="title3">Genomsnittlig smärta</div>
+          <div className="backgroundShape shape3" id="Item3">Hög smärta</div>
+        
+          <div className="title4">Värkar totalt</div>
+          <div className="backgroundShape shape4" id="Item4">60 minuter</div>
+        
       </div>
-      <div grid-wrapper>
-        <div>
-          <p>Frekvens</p>
-          <div className="backgroundShape" id="Item1">Var 5:e minut</div>
-        </div>
-        <div>
-          <p>Genomsnittslängd</p>
-          <div className="backgroundShape" id="Item2">54 sekunder</div>
-        </div>
-        <div>
-          <p>Genomsnittlig smärta</p>
-          <div className="backgroundShape" id="Item3">Hög smärta</div>
-        </div>
-        <div>
-          <p>Värkar totalt</p>
-          <div className="backgroundShape" id="Item4">60 minuter</div>
-        </div>
-      </div>
-    </div>
+ 
   );
 }
 
