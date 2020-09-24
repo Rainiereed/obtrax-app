@@ -11,18 +11,18 @@ import PopupReminder from "../pages/PopupReminder";
 import Painintensity from "../pages/Painintensity";
 import CallMidwife from "../pages/CallMidwife";
 import Contraction from "../pages/Contraction";
-//import ContractionSummary from '../pages/ContractionSummary';
 import Minprofil from "../pages/Minprofil";
 import Settings from "../pages/Settings";
 import Information from "../pages/Information";
 import RegisterSymptoms from "../pages/RegisterSymptoms";
 import WaterBroken from "../pages/WaterBroken";
 import RegisteredConfirm from "../pages/RegisteredConfirm";
-
+import History from "../pages/History";
 
 export default function Layout() {
     return (
         <div>
+
             <Router>
                 <Switch>
                     <Route exact path="/" component={Onboarding} />
@@ -37,6 +37,7 @@ export default function Layout() {
                     <Route exact path="/symptoms" component={RegisterSymptoms} />
                     <Route exact path="/water" component={WaterBroken} />
                     <Route exact path="/confirm" component={RegisteredConfirm} />
+                    <Route exact path="/history" component={History} />
                 </Switch>
             </Router>
         </div>
