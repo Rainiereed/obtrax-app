@@ -10,7 +10,7 @@
   height: 95vh;
   position: fixed;
   left: 0;
-  top: 85vh;
+  top: 75vh;
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px;
@@ -43,13 +43,13 @@
   }
 
   100% {
-    transform: translateY(-67%);
+    transform: translateY(-75%);
   }
 }
 
 @keyframes animationReverse {
   0% {
-    transform: translateY(-67%);
+    transform: translateY(-75%);
   }
 
   100% {
