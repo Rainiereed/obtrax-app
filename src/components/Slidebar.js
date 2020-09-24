@@ -7,10 +7,10 @@ const Slidebar= () => {
   return (
       <div>
         <Slider
-        defaultValue={15}
+        defaultValue={45}
         trackStyle={{ 
           background: 'linear-gradient(to right, #6ce6ae, #e6cd71, #e867a2, #ed292c)', 
-          height: 12 
+          height: 14 
         }}
         handleStyle={{
           borderColor: 'White',
@@ -21,7 +21,7 @@ const Slidebar= () => {
           backgroundColor: 'whiteSmoke',
         }}
         railStyle={{ background: 'linear-gradient(to right, #e1faef, #faf5e3, #fbe1ed, #fcd4d5)', 
-        height: 12 
+        height: 14 
         }}
       />
       </div>
