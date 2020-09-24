@@ -12,15 +12,16 @@ const Card = () => {
             </div>
             <h2>Contraction</h2>
             <div className="card">
-                <h3>Varaktighet</h3>
-                <p>00:09</p>
-                <h3>Hur kändes det?</h3>
+                <h3 className="h3">Varaktighet</h3>
+                <p className="text">00:09</p>
+                <h3 className="h3">Hur kändes det?</h3>
                 <div>
                     <Slidebar />
                 </div>
                 
                 <h4 className="textLeft" >Låg smärta</h4>
                 <h4 className="textRight">Hög smärta</h4>
+                <br></br>
                 <br></br>
                 <br></br>
                 <div>
