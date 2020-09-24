@@ -19,7 +19,7 @@ const ContractionSummary = () => {
     >
 
           <div className="contractionText">CONTRACTIONS</div>
-          <div className="dateText">2020-09-26 - 2020-09-27</div>
+          <div className="dateText">2020-09-14 - 2020-09-19</div>
          
           <div className="title1">Frekvens</div>
           <div className="backgroundShape shape1" id="Item1">Var 5:e minut</div>
