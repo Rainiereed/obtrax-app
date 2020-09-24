@@ -18,7 +18,7 @@ const ContractionSummary = () => {
       onClick={() => toggleButton()}
     >
 
-          <div className="contractionText">CONTRACTION</div>
+          <div className="contractionText">CONTRACTIONS</div>
           <div className="dateText">2020-09-26 - 2020-09-27</div>
          
           <div className="title1">Frekvens</div>
