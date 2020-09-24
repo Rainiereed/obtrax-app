@@ -20,6 +20,7 @@ const Symptoms = () => {
             <div className="symptomCard">
                 <br></br>
                 <p>Beskriv dina symptom</p>
+                <br></br>
                 <WaterBrokenButton className="symptomButton" id="Item1" path="/water" text="Vattnet har gått" />
                 <br></br>               
                 <div className="symptomButton" id="Item2">Jag blöder</div>
