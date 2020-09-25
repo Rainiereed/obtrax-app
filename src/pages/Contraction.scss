@@ -5,6 +5,7 @@
 main{
   display: flex;
   flex-direction: column;
+  padding: 12px;
 }
 
 table{
@@ -43,16 +44,16 @@ table{
   flex-wrap: wrap;
   div {
     background-color: white;
-    padding: 8px;
+    padding: 6px;
     display: flex;
     flex-direction: column;
-    flex: 0 0 calc(50% - 4px);
-    max-width: 44%;
+    flex: 0 0 calc(50%);
+    max-width: 45%;
     margin-bottom: 8px;
 
     &.timer{
       flex: 1 0 100%;
-      max-width: 94%;
+      max-width: 95%;
     }
 
     &.recent-diff{
@@ -165,4 +166,3 @@ button{
     }
   }
 }
-
