@@ -53,7 +53,6 @@ const Contraction: React.FC = () => {
           state.contractions.length > 0 ? <div><PainButton path="/pain" text="PAIN" /> <div className="divider" /> <button className="reset" onClick={() => reset()}>Reset</button> </div>: null
         }
         <br></br>
-        <br></br>
       </main>
     </div>
   );
