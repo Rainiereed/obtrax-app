@@ -44,7 +44,7 @@ class CallMidwife extends React.Component {
     return (
       <div>
       <div>
-      <img className="img" src={this.backgrounds[this.state.backgroundIndex]} alt="" />
+      <img className="image" src={this.backgrounds[this.state.backgroundIndex]} alt="" />
       </div>
       <Sidenav />
       </div>
