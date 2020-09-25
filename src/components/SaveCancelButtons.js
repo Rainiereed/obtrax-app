@@ -4,8 +4,8 @@ import "./styles/SaveCancelButtons.scss";
 const SaveCancelButtons = () => {
     return (
         <div>
-            <button className="saveButton" type="submit">Spara</button>
-            <div class="divider" />
+            <a href="/timer"><button className="saveButton">Spara</button></a>
+            <div className="divider" />
             <button className="cancelButton">Avbryt</button>
         </div>
     );
