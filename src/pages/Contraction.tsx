@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Store, IContraction } from '../Store'; 
-import LogoButton from "../components/LogoButton";
-//import ContractionSummary from '../pages/ContractionSummary';
+import Sidenav from "../components/Sidenav";
+import PainButton from '../components/PainButton';
 import stopwatch from '../assets/stopwatch.svg';
 import '../pages/Contraction.scss';
 
@@ -21,7 +21,7 @@ const Contraction: React.FC = () => {
   return (
     <div className="App">
       <main>
-        <LogoButton />
+         <Sidenav />
         {
           state.midContraction ?
           <button className="contraction end" onClick={() => {dispatch({type: 'CONTRACTION_END', payload: new Date()}); dispatch({type: 'TOGGLE_CONTRACTION'})} }>stop</button>
@@ -50,7 +50,7 @@ const Contraction: React.FC = () => {
         </tbody>
         </table>
         {
-          state.contractions.length > 0 ? <button className="reset" onClick={() => reset()}>Reset</button> : null
+          state.contractions.length > 0 ? <div><PainButton path="/pain" text="PAIN" /> <div className="divider" /> <button className="reset" onClick={() => reset()}>Reset</button> </div>: null
         }
         
       </main>
@@ -146,12 +146,9 @@ const TimeSinceLastContraction: React.FunctionComponent<{latestContraction: ICon
           <img alt="" className="stopwatch-icon" src={stopwatch} />
           {formatDuration(duration)}
         </span>
-
         </div>
     )
   }
-
-
 }
 
 function padWithLeadingZero(value: Number): String{
@@ -189,7 +186,5 @@ const Time: React.FunctionComponent<{date: Date}> = ({date}) => {
     <>{padWithLeadingZero(twelveHour)}:{padWithLeadingZero(date.getMinutes())} <span className="date-meridiem">{hours > 12 ? 'PM' : 'AM'}</span></>
   )
 }
-
-
 
 export default Contraction;
