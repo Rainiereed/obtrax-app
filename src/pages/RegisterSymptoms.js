@@ -36,6 +36,8 @@ const Symptoms = () => {
             <div>
                 <CallMidwifeButton path="/ring" text="Ring barnmorska" />
             </div>
+            <br></br>
+            <br></br>
         </div>
     );
 }
