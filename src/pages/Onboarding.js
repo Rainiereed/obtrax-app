@@ -48,7 +48,7 @@ const Onboarding = () => {
             <h3>Klicka på <strong><a href="/minprofile">Lägg till info</a></strong> för att ge OB Trax värdefull information som tillgängliggör hjälp till er bäst på bästa sätt!<br>
             </br>
               <br></br>
-              Om du direkt vill komma igång att mäta dina värkar, kan du lägga till denna information i dian värkar, kan du lägga till denna information i dina inställningar senare.</h3>
+              Om du direkt vill komma igång att mäta dina värkar, kan du lägga till denna information i dina inställningar senare.</h3>
             <img src={icon3} alt="icon3" />
           </div>
         </Slide>
