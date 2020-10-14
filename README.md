@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It's about an app for women in labor monitoring their contraction and related symptoms and connecting their information to the midwives and Obstetrics in hospital.
+It's about a mobile app for women in labor monitoring their contraction and related symptoms and connecting their information to the midwives and Obstetrics in hospital.
 
 ## Available Scripts
 
